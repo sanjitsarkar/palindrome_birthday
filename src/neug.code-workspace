@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "../../stock_price"
+    },
+    {
+      "path": ".."
+    },
+    {
+      "path": "../../lucky_birthday"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "lucky_birthday"
+  }
+}
