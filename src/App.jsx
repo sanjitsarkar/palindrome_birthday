@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import { Footer } from "./Footer";
 
 function App() {
   const [birthDate, setBirthDate] = useState();
@@ -242,6 +243,7 @@ function App() {
         <button type="submit">Show</button>
         <p>{output}</p>
       </form>
+      <Footer />
     </div>
   );
 }
