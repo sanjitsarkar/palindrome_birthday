@@ -180,7 +180,7 @@ function App() {
   function show(e) {
     e.preventDefault();
 
-    if (birthDate !== "") {
+    if (birthDate) {
       var date = birthDate.split("-");
       var yyyy = date[0];
       var mm = date[1];
@@ -219,6 +219,8 @@ function App() {
       } else {
         setOutput("Yay! Your birthday is palindrome!");
       }
+    } else {
+      setOutput("Please enter birthdate");
     }
   }
 
