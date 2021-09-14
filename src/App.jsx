@@ -236,7 +236,6 @@ function App() {
         <label>Enter your birth date below</label>
         <input
           type="date"
-          value={birthDate}
           onChange={(e) => {
             setBirthDate(e.target.value);
           }}
